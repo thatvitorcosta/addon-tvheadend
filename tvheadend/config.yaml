@@ -13,6 +13,12 @@ arch:
   - armv7
   - i386
 webui: "http://[HOST]:[PORT:9981]/"
+hassio_role: admin
+hassio_api: true
+privileged:
+  - NET_ADMIN
+  - SYS_ADMIN
+  - SYS_RAWIO
 devices:
   - /dev/dvb
   - /dev/dri
